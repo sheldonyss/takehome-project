@@ -1,5 +1,5 @@
-# Assumption
 
+## Assumption
 This project assumes the following are true:
 
 1.  The currency is fixed to USD. To support other currencies, an utility class is desired to handle the currency display from its smallest unit.
@@ -7,7 +7,7 @@ This project assumes the following are true:
 
   
 
-# Certificate Issues
+## Certificate Issues
 
 This project uses a self-signed certificate and it is not trusted by the Chrome browser by default.
 
