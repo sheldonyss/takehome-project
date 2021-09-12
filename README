@@ -1,7 +1,4 @@
-﻿
-  
-
-#Assumption
+# Assumption
 
 This project assumes the following are true:
 
@@ -10,7 +7,7 @@ This project assumes the following are true:
 
   
 
-#Certificate Issues
+# Certificate Issues
 
 This project uses a self-signed certificate and it is not trusted by the Chrome browser by default.
 
