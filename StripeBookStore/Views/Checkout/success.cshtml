@@ -1,0 +1,30 @@
+﻿
+
+<main>
+    <div class="mt-40 text-center text-success">
+        <h1>
+            <i class="far fa-check-circle"></i>
+            Success!
+        </h1>
+    </div>
+    <div class="mt-40 text-center">
+        <div class="mt-20 text-center text-secondary border-placeholder">
+            <table class="table" style="border-width: 0px;text-align: left">
+                <thead>
+                    <tr>
+                        <th>Payment Id</th>
+                        <th>Payment Method</th>
+                        <th>Payment Amount</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>@ViewData["id"]</td>
+                        <td>@ViewData["method"]</td>
+                        <td>@ViewData["amount"]</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</main>
