@@ -13,3 +13,11 @@ This project assumes the following are true:
 This project uses a self-signed certificate and it is not trusted by the Chrome browser by default.
 
 You must **manually trust the self-signed certificate** first before you can try the payment flow. See https://www.pico.net/kb/how-do-you-get-chrome-to-accept-a-self-signed-certificate/ for the details.
+
+## Run
+```
+git clone https://github.com/sheldonyss/takehome-project.git
+cd takehome-project
+docker build -t takehome -f Dockerfile ..
+docker run -p 9999:80 takehome
+```
