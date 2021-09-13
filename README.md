@@ -18,6 +18,7 @@ You must **manually trust the self-signed certificate** first before you can try
 ```
 git clone https://github.com/sheldonyss/takehome-project.git
 cd takehome-project
+cd StripeBookStore
 docker build -t takehome -f Dockerfile ..
 docker run -p 9999:80 takehome
 ```
