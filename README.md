@@ -1,6 +1,10 @@
 # takehome-project
 
-## Assumption
+## About
+
+Inline-style: 
+![alt text](https://github.com/sheldonyss/takehome-project/blob/master/2021-09-14_07-52-40.gif?raw=true "screen record")
+
 This project assumes the following are true:
 
 1.  The currency is fixed to USD. To support other currencies, an utility class is desired to handle the currency display from its smallest unit.
