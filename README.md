@@ -10,7 +10,7 @@ https://stripe.com/docs/api/payment_intents/create
 https://stripe.com/docs/stripe-js
 
 To be improved:
-1.  The currency is fixed to USD. To support other currencies, an utility class is desired to handle the currency display from its smallest unit.
+1.  The currency is fixed to SGD. To support other currencies, an utility class is desired to handle the currency display from its smallest unit.
 2.  For simplicity, this project does not include customer membership management, order management, and other commonly seen features provided in e-commerce software. This means you can pay for the same item many times.
 3.  Allow customer to cancel order and automatically trigger refund.
 4.  More payment methods
